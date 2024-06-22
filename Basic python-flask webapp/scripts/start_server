@@ -1,4 +1,4 @@
 #!/bin/bash
 
-service apache2 start
+python3 main.py $
 
