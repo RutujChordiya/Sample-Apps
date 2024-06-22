@@ -1,5 +1,11 @@
 #!/bin/bash
 
 echo "Installing dependencies"
-cd /home/ec2-user/flask-app
-pip3 install flask
+
+cd /home/ubuntu/flask-app
+
+sudo apt-get update
+
+sudo apt install -y python3-pip
+
+sudo apt install -y python3-flask
