@@ -1,3 +1,4 @@
 #!/bin/bash
 
-sudo apt-get update
+echo "Stopping existing Flask application"
+pkill -f "flask run" || true
