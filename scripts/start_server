@@ -1,4 +1,6 @@
 #!/bin/bash
 
-python3 /home/ubuntu/main.py $
+#nohup python3 /home/ubuntu/main.py $
+
+sudo nohup python3 main.py > log.txt 2>&1 &
 
