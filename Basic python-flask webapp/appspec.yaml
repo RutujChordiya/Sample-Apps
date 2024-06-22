@@ -7,6 +7,10 @@ files:
     destination: /
 
 hooks:
+  BeforeInstall:
+    - location: script/before_install.sh
+      timeout: 100
+      runas: root
   AfterInstall:
     - location: scripts/install_flask.sh
       timeout: 300
